@@ -1,0 +1,21 @@
+
+{
+  "name": "wallet-sdk-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A test digital wallet SDK with a NestJS API and browser demo.",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "apps/api",
+    "apps/demo",
+    "packages/sdk"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
